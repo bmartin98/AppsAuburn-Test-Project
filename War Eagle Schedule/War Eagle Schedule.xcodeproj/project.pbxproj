@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1046891B2073BDA30062B0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891A2073BDA30062B0E2 /* AppDelegate.swift */; };
+		1046891D2073BDA30062B0E2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891C2073BDA30062B0E2 /* FirstViewController.swift */; };
+		1046891F2073BDA30062B0E2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891E2073BDA30062B0E2 /* SecondViewController.swift */; };
+		104689222073BDA30062B0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104689202073BDA30062B0E2 /* Main.storyboard */; };
+		104689242073BDA30062B0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104689232073BDA30062B0E2 /* Assets.xcassets */; };
+		104689272073BDA30062B0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104689252073BDA30062B0E2 /* LaunchScreen.storyboard */; };
+		104689322073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104689312073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift */; };
+		1046893D2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046893C2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1046892E2073BDA40062B0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1046890F2073BDA30062B0E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104689162073BDA30062B0E2;
+			remoteInfo = "War Eagle Schedule";
+		};
+		104689392073BDA40062B0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1046890F2073BDA30062B0E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104689162073BDA30062B0E2;
+			remoteInfo = "War Eagle Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104689172073BDA30062B0E2 /* War Eagle Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Eagle Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1046891A2073BDA30062B0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1046891C2073BDA30062B0E2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1046891E2073BDA30062B0E2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		104689212073BDA30062B0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		104689232073BDA30062B0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104689262073BDA30062B0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		104689282073BDA30062B0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1046892D2073BDA40062B0E2 /* War Eagle ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Eagle ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104689312073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Eagle_ScheduleTests.swift; sourceTree = "<group>"; };
+		104689332073BDA40062B0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104689382073BDA40062B0E2 /* War Eagle ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Eagle ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1046893C2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Eagle_ScheduleUITests.swift; sourceTree = "<group>"; };
+		1046893E2073BDA40062B0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104689142073BDA30062B0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1046892A2073BDA40062B0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104689352073BDA40062B0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1046890E2073BDA30062B0E2 = {
+			isa = PBXGroup;
+			children = (
+				104689192073BDA30062B0E2 /* War Eagle Schedule */,
+				104689302073BDA40062B0E2 /* War Eagle ScheduleTests */,
+				1046893B2073BDA40062B0E2 /* War Eagle ScheduleUITests */,
+				104689182073BDA30062B0E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		104689182073BDA30062B0E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104689172073BDA30062B0E2 /* War Eagle Schedule.app */,
+				1046892D2073BDA40062B0E2 /* War Eagle ScheduleTests.xctest */,
+				104689382073BDA40062B0E2 /* War Eagle ScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104689192073BDA30062B0E2 /* War Eagle Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				1046891A2073BDA30062B0E2 /* AppDelegate.swift */,
+				1046891C2073BDA30062B0E2 /* FirstViewController.swift */,
+				1046891E2073BDA30062B0E2 /* SecondViewController.swift */,
+				104689202073BDA30062B0E2 /* Main.storyboard */,
+				104689232073BDA30062B0E2 /* Assets.xcassets */,
+				104689252073BDA30062B0E2 /* LaunchScreen.storyboard */,
+				104689282073BDA30062B0E2 /* Info.plist */,
+			);
+			path = "War Eagle Schedule";
+			sourceTree = "<group>";
+		};
+		104689302073BDA40062B0E2 /* War Eagle ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				104689312073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift */,
+				104689332073BDA40062B0E2 /* Info.plist */,
+			);
+			path = "War Eagle ScheduleTests";
+			sourceTree = "<group>";
+		};
+		1046893B2073BDA40062B0E2 /* War Eagle ScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1046893C2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift */,
+				1046893E2073BDA40062B0E2 /* Info.plist */,
+			);
+			path = "War Eagle ScheduleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104689162073BDA30062B0E2 /* War Eagle Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104689412073BDA40062B0E2 /* Build configuration list for PBXNativeTarget "War Eagle Schedule" */;
+			buildPhases = (
+				104689132073BDA30062B0E2 /* Sources */,
+				104689142073BDA30062B0E2 /* Frameworks */,
+				104689152073BDA30062B0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "War Eagle Schedule";
+			productName = "War Eagle Schedule";
+			productReference = 104689172073BDA30062B0E2 /* War Eagle Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1046892C2073BDA40062B0E2 /* War Eagle ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104689442073BDA40062B0E2 /* Build configuration list for PBXNativeTarget "War Eagle ScheduleTests" */;
+			buildPhases = (
+				104689292073BDA40062B0E2 /* Sources */,
+				1046892A2073BDA40062B0E2 /* Frameworks */,
+				1046892B2073BDA40062B0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1046892F2073BDA40062B0E2 /* PBXTargetDependency */,
+			);
+			name = "War Eagle ScheduleTests";
+			productName = "War Eagle ScheduleTests";
+			productReference = 1046892D2073BDA40062B0E2 /* War Eagle ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		104689372073BDA40062B0E2 /* War Eagle ScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104689472073BDA40062B0E2 /* Build configuration list for PBXNativeTarget "War Eagle ScheduleUITests" */;
+			buildPhases = (
+				104689342073BDA40062B0E2 /* Sources */,
+				104689352073BDA40062B0E2 /* Frameworks */,
+				104689362073BDA40062B0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1046893A2073BDA40062B0E2 /* PBXTargetDependency */,
+			);
+			name = "War Eagle ScheduleUITests";
+			productName = "War Eagle ScheduleUITests";
+			productReference = 104689382073BDA40062B0E2 /* War Eagle ScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1046890F2073BDA30062B0E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Brandon Martin";
+				TargetAttributes = {
+					104689162073BDA30062B0E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1046892C2073BDA40062B0E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 104689162073BDA30062B0E2;
+					};
+					104689372073BDA40062B0E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 104689162073BDA30062B0E2;
+					};
+				};
+			};
+			buildConfigurationList = 104689122073BDA30062B0E2 /* Build configuration list for PBXProject "War Eagle Schedule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1046890E2073BDA30062B0E2;
+			productRefGroup = 104689182073BDA30062B0E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				104689162073BDA30062B0E2 /* War Eagle Schedule */,
+				1046892C2073BDA40062B0E2 /* War Eagle ScheduleTests */,
+				104689372073BDA40062B0E2 /* War Eagle ScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		104689152073BDA30062B0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104689272073BDA30062B0E2 /* LaunchScreen.storyboard in Resources */,
+				104689242073BDA30062B0E2 /* Assets.xcassets in Resources */,
+				104689222073BDA30062B0E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1046892B2073BDA40062B0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104689362073BDA40062B0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104689132073BDA30062B0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1046891F2073BDA30062B0E2 /* SecondViewController.swift in Sources */,
+				1046891B2073BDA30062B0E2 /* AppDelegate.swift in Sources */,
+				1046891D2073BDA30062B0E2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104689292073BDA40062B0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104689322073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104689342073BDA40062B0E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1046893D2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1046892F2073BDA40062B0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104689162073BDA30062B0E2 /* War Eagle Schedule */;
+			targetProxy = 1046892E2073BDA40062B0E2 /* PBXContainerItemProxy */;
+		};
+		1046893A2073BDA40062B0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104689162073BDA30062B0E2 /* War Eagle Schedule */;
+			targetProxy = 104689392073BDA40062B0E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		104689202073BDA30062B0E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104689212073BDA30062B0E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		104689252073BDA30062B0E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104689262073BDA30062B0E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1046893F2073BDA40062B0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		104689402073BDA40062B0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104689422073BDA40062B0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B2KNDT9Y9;
+				INFOPLIST_FILE = "War Eagle Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.War-Eagle-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		104689432073BDA40062B0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B2KNDT9Y9;
+				INFOPLIST_FILE = "War Eagle Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.War-Eagle-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		104689452073BDA40062B0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B2KNDT9Y9;
+				INFOPLIST_FILE = "War Eagle ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.War-Eagle-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Eagle Schedule.app/War Eagle Schedule";
+			};
+			name = Debug;
+		};
+		104689462073BDA40062B0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B2KNDT9Y9;
+				INFOPLIST_FILE = "War Eagle ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.War-Eagle-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Eagle Schedule.app/War Eagle Schedule";
+			};
+			name = Release;
+		};
+		104689482073BDA40062B0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B2KNDT9Y9;
+				INFOPLIST_FILE = "War Eagle ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.War-Eagle-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "War Eagle Schedule";
+			};
+			name = Debug;
+		};
+		104689492073BDA40062B0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B2KNDT9Y9;
+				INFOPLIST_FILE = "War Eagle ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.War-Eagle-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "War Eagle Schedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104689122073BDA30062B0E2 /* Build configuration list for PBXProject "War Eagle Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1046893F2073BDA40062B0E2 /* Debug */,
+				104689402073BDA40062B0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104689412073BDA40062B0E2 /* Build configuration list for PBXNativeTarget "War Eagle Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104689422073BDA40062B0E2 /* Debug */,
+				104689432073BDA40062B0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104689442073BDA40062B0E2 /* Build configuration list for PBXNativeTarget "War Eagle ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104689452073BDA40062B0E2 /* Debug */,
+				104689462073BDA40062B0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104689472073BDA40062B0E2 /* Build configuration list for PBXNativeTarget "War Eagle ScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104689482073BDA40062B0E2 /* Debug */,
+				104689492073BDA40062B0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1046890F2073BDA30062B0E2 /* Project object */;
+}
