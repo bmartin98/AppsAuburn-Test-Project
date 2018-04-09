@@ -15,6 +15,21 @@
 		104689272073BDA30062B0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104689252073BDA30062B0E2 /* LaunchScreen.storyboard */; };
 		104689322073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104689312073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift */; };
 		1046893D2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046893C2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift */; };
+		1046894B20759B950062B0E2 /* Mondau.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1046894A20759B940062B0E2 /* Mondau.gif */; };
+		1046894C20759B950062B0E2 /* Mondau.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1046894A20759B940062B0E2 /* Mondau.gif */; };
+		1046894D20759B950062B0E2 /* Mondau.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1046894A20759B940062B0E2 /* Mondau.gif */; };
+		1046894F2075A1C90062B0E2 /* Tuesday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046894E2075A1C90062B0E2 /* Tuesday.jpg */; };
+		104689502075A1C90062B0E2 /* Tuesday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046894E2075A1C90062B0E2 /* Tuesday.jpg */; };
+		104689512075A1C90062B0E2 /* Tuesday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046894E2075A1C90062B0E2 /* Tuesday.jpg */; };
+		104689532075A2400062B0E2 /* Wenesday.png in Resources */ = {isa = PBXBuildFile; fileRef = 104689522075A2400062B0E2 /* Wenesday.png */; };
+		104689542075A2400062B0E2 /* Wenesday.png in Resources */ = {isa = PBXBuildFile; fileRef = 104689522075A2400062B0E2 /* Wenesday.png */; };
+		104689552075A2400062B0E2 /* Wenesday.png in Resources */ = {isa = PBXBuildFile; fileRef = 104689522075A2400062B0E2 /* Wenesday.png */; };
+		104689572075C8E70062B0E2 /* Thursday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104689562075C8E60062B0E2 /* Thursday.jpg */; };
+		104689582075C8E70062B0E2 /* Thursday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104689562075C8E60062B0E2 /* Thursday.jpg */; };
+		104689592075C8E70062B0E2 /* Thursday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104689562075C8E60062B0E2 /* Thursday.jpg */; };
+		1046895B2075C9850062B0E2 /* Friday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046895A2075C9850062B0E2 /* Friday.jpg */; };
+		1046895C2075C9850062B0E2 /* Friday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046895A2075C9850062B0E2 /* Friday.jpg */; };
+		1046895D2075C9850062B0E2 /* Friday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046895A2075C9850062B0E2 /* Friday.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,11 @@
 		104689382073BDA40062B0E2 /* War Eagle ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Eagle ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1046893C2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_Eagle_ScheduleUITests.swift; sourceTree = "<group>"; };
 		1046893E2073BDA40062B0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1046894A20759B940062B0E2 /* Mondau.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Mondau.gif; path = ../../../../Downloads/Mondau.gif; sourceTree = "<group>"; };
+		1046894E2075A1C90062B0E2 /* Tuesday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tuesday.jpg; path = ../../../../Downloads/Tuesday.jpg; sourceTree = "<group>"; };
+		104689522075A2400062B0E2 /* Wenesday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wenesday.png; path = ../../../../Downloads/Wenesday.png; sourceTree = "<group>"; };
+		104689562075C8E60062B0E2 /* Thursday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Thursday.jpg; path = ../../../../Downloads/Thursday.jpg; sourceTree = "<group>"; };
+		1046895A2075C9850062B0E2 /* Friday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Friday.jpg; path = ../../../../Downloads/Friday.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,11 @@
 				1046891C2073BDA30062B0E2 /* FirstViewController.swift */,
 				1046891E2073BDA30062B0E2 /* SecondViewController.swift */,
 				104689202073BDA30062B0E2 /* Main.storyboard */,
+				1046895A2075C9850062B0E2 /* Friday.jpg */,
+				104689562075C8E60062B0E2 /* Thursday.jpg */,
+				104689522075A2400062B0E2 /* Wenesday.png */,
+				1046894E2075A1C90062B0E2 /* Tuesday.jpg */,
+				1046894A20759B940062B0E2 /* Mondau.gif */,
 				104689232073BDA30062B0E2 /* Assets.xcassets */,
 				104689252073BDA30062B0E2 /* LaunchScreen.storyboard */,
 				104689282073BDA30062B0E2 /* Info.plist */,
@@ -235,8 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1046895B2075C9850062B0E2 /* Friday.jpg in Resources */,
 				104689272073BDA30062B0E2 /* LaunchScreen.storyboard in Resources */,
+				104689532075A2400062B0E2 /* Wenesday.png in Resources */,
 				104689242073BDA30062B0E2 /* Assets.xcassets in Resources */,
+				104689572075C8E70062B0E2 /* Thursday.jpg in Resources */,
+				1046894F2075A1C90062B0E2 /* Tuesday.jpg in Resources */,
+				1046894B20759B950062B0E2 /* Mondau.gif in Resources */,
 				104689222073BDA30062B0E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1046894C20759B950062B0E2 /* Mondau.gif in Resources */,
+				104689542075A2400062B0E2 /* Wenesday.png in Resources */,
+				104689502075A1C90062B0E2 /* Tuesday.jpg in Resources */,
+				1046895C2075C9850062B0E2 /* Friday.jpg in Resources */,
+				104689582075C8E70062B0E2 /* Thursday.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1046894D20759B950062B0E2 /* Mondau.gif in Resources */,
+				104689552075A2400062B0E2 /* Wenesday.png in Resources */,
+				104689512075A1C90062B0E2 /* Tuesday.jpg in Resources */,
+				1046895D2075C9850062B0E2 /* Friday.jpg in Resources */,
+				104689592075C8E70062B0E2 /* Thursday.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
