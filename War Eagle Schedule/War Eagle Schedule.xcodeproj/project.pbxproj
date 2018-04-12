@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1046891B2073BDA30062B0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891A2073BDA30062B0E2 /* AppDelegate.swift */; };
 		1046891D2073BDA30062B0E2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891C2073BDA30062B0E2 /* FirstViewController.swift */; };
-		1046891F2073BDA30062B0E2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891E2073BDA30062B0E2 /* SecondViewController.swift */; };
 		104689222073BDA30062B0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104689202073BDA30062B0E2 /* Main.storyboard */; };
 		104689242073BDA30062B0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104689232073BDA30062B0E2 /* Assets.xcassets */; };
 		104689272073BDA30062B0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104689252073BDA30062B0E2 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,9 @@
 		1046895B2075C9850062B0E2 /* Friday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046895A2075C9850062B0E2 /* Friday.jpg */; };
 		1046895C2075C9850062B0E2 /* Friday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046895A2075C9850062B0E2 /* Friday.jpg */; };
 		1046895D2075C9850062B0E2 /* Friday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1046895A2075C9850062B0E2 /* Friday.jpg */; };
+		1046895F207D46530062B0E2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046895E207D46530062B0E2 /* EditViewController.swift */; };
+		10468960207D46530062B0E2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046895E207D46530062B0E2 /* EditViewController.swift */; };
+		10468961207D46530062B0E2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046895E207D46530062B0E2 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +55,6 @@
 		104689172073BDA30062B0E2 /* War Eagle Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Eagle Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1046891A2073BDA30062B0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1046891C2073BDA30062B0E2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1046891E2073BDA30062B0E2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		104689212073BDA30062B0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		104689232073BDA30062B0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104689262073BDA30062B0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		104689522075A2400062B0E2 /* Wenesday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wenesday.png; path = ../../../../Downloads/Wenesday.png; sourceTree = "<group>"; };
 		104689562075C8E60062B0E2 /* Thursday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Thursday.jpg; path = ../../../../Downloads/Thursday.jpg; sourceTree = "<group>"; };
 		1046895A2075C9850062B0E2 /* Friday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Friday.jpg; path = ../../../../Downloads/Friday.jpg; sourceTree = "<group>"; };
+		1046895E207D46530062B0E2 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +123,8 @@
 			children = (
 				1046891A2073BDA30062B0E2 /* AppDelegate.swift */,
 				1046891C2073BDA30062B0E2 /* FirstViewController.swift */,
-				1046891E2073BDA30062B0E2 /* SecondViewController.swift */,
 				104689202073BDA30062B0E2 /* Main.storyboard */,
+				1046895E207D46530062B0E2 /* EditViewController.swift */,
 				1046895A2075C9850062B0E2 /* Friday.jpg */,
 				104689562075C8E60062B0E2 /* Thursday.jpg */,
 				104689522075A2400062B0E2 /* Wenesday.png */,
@@ -302,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1046891F2073BDA30062B0E2 /* SecondViewController.swift in Sources */,
+				1046895F207D46530062B0E2 /* EditViewController.swift in Sources */,
 				1046891B2073BDA30062B0E2 /* AppDelegate.swift in Sources */,
 				1046891D2073BDA30062B0E2 /* FirstViewController.swift in Sources */,
 			);
@@ -312,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10468960207D46530062B0E2 /* EditViewController.swift in Sources */,
 				104689322073BDA40062B0E2 /* War_Eagle_ScheduleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10468961207D46530062B0E2 /* EditViewController.swift in Sources */,
 				1046893D2073BDA40062B0E2 /* War_Eagle_ScheduleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
