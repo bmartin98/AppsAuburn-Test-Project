@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1010ECBE20815AF20055855B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1010ECBD20815AF20055855B /* ScheduleViewController.swift */; };
 		1046891B2073BDA30062B0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891A2073BDA30062B0E2 /* AppDelegate.swift */; };
 		1046891D2073BDA30062B0E2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046891C2073BDA30062B0E2 /* FirstViewController.swift */; };
 		104689222073BDA30062B0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104689202073BDA30062B0E2 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1010ECBD20815AF20055855B /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		104689172073BDA30062B0E2 /* War Eagle Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Eagle Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1046891A2073BDA30062B0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1046891C2073BDA30062B0E2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				1046891A2073BDA30062B0E2 /* AppDelegate.swift */,
 				1046891C2073BDA30062B0E2 /* FirstViewController.swift */,
 				104689202073BDA30062B0E2 /* Main.storyboard */,
+				1010ECBD20815AF20055855B /* ScheduleViewController.swift */,
 				1046895E207D46530062B0E2 /* EditViewController.swift */,
 				1046895A2075C9850062B0E2 /* Friday.jpg */,
 				104689562075C8E60062B0E2 /* Thursday.jpg */,
@@ -307,6 +310,7 @@
 				1046895F207D46530062B0E2 /* EditViewController.swift in Sources */,
 				1046891B2073BDA30062B0E2 /* AppDelegate.swift in Sources */,
 				1046891D2073BDA30062B0E2 /* FirstViewController.swift in Sources */,
+				1010ECBE20815AF20055855B /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,8 +12,18 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tableView: UITableView!
     
-    @IBOutlet weak var mondayI: UIImageView!
-    @IBOutlet weak var mondayL: UILabel!
+  
+ //   @IBOutlet weak var label: UILabel!
+    //@IBOutlet weak var images: UIImageView!
+    
+  
+    @IBAction func addButton(_ sender: Any) {
+         performSegue(withIdentifier: "addS", sender: self)
+    }
+  
+    
+ 
+    
     
     let weekdays = ["Monday", "Tuesday", "Wendesday", "Thursday", "Friday"]
     
@@ -35,7 +45,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         myIndex = indexPath.row
-        performSegue(withIdentifier: "Eagle", sender: self)
+        performSegue(withIdentifier: "Eagle", sender: self.tableView(tableView, cellForRowAt: indexPath))
     }
 
     override func viewDidLoad() {
@@ -45,6 +55,17 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.dataSource = self
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? ScheduleViewController {
+            if let sender = sender as? UITableViewCell {
+                destination.day = sender.textLabel?.text ?? "Monday"
+            }
+            else { destination.day = "Monday"
+                
+            }
+        }
+    }
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
